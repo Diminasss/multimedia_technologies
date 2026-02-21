@@ -179,10 +179,17 @@ def analyze_generated_audio(filename: str):
 
 
 def main() -> int:
-    generation_frequency_hz: int = 2000  # Частота генерируемого звука
-    generation_duration_s: float = 10.0  # Продолжительность генерируемого звука
-    sample_rate_hz: int = 44100  # Частота дискретизации
-    generate_signal(generation_frequency_hz, generation_duration_s, sample_rate_hz, save_file=True)
+    # Частота генерируемого звука
+    generation_frequency_hz: int = 2000
+    # Продолжительность генерируемого звука
+    generation_duration_s: float = 10.0
+    # Частота дискретизации
+    sample_rate_hz: int = 44100
+    generate_signal(
+        generation_frequency_hz,
+        generation_duration_s,
+        sample_rate_hz,
+        save_file=True)
 
     analyze_generated_audio("result/generated.mp3")
 
