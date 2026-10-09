@@ -2,11 +2,13 @@
 
 Репозиторий с семью лабораторными работами по цифровой обработке аудиосигналов и изображений. В проектах рассматриваются генерация и спектральный анализ звука, фильтрация во временной и частотной областях, синтез шумоподобного аудио, управление контрастностью, выделение границ и восстановление смазанных изображений.
 
-<p align="center">
-  <img src="4KMTLab1/result/spectrogram.png" width="31%" alt="Спектрограмма синусоидального сигнала">
-  <img src="4KTMLab4/lab4_waveform.png" width="31%" alt="Сигнал морского прибоя">
-  <img src="4KTMLab5/results/part1_methods/input_image_4_adapthist.jpg" width="31%" alt="Адаптивное выравнивание гистограммы">
-</p>
+
+<img src="4KMTLab1/result/spectrogram.png" width="100%" alt="Спектрограмма синусоидального сигнала">
+<br>
+<img src="4KTMLab4/lab4_waveform.png" width="100%" alt="Сигнал морского прибоя">
+<br>
+<img src="4KTMLab5/results/part1_methods/input_image_4_adapthist.jpg" width="100%" alt="Адаптивное выравнивание гистограммы">
+
 
 ## Содержание
 
